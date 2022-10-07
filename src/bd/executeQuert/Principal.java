@@ -22,7 +22,7 @@ public class Principal {
 			System.out.println("Conectado ao MySql");
 
 			while (resultSet.next()) {
-				System.out.println(resultSet.getString(1) + "\t" + resultSet.getString(2) + "" + resultSet.getString(3)
+				System.out.println(resultSet.getString(1) + "\t" + resultSet.getString(2) + "\t" + resultSet.getString(3)
 						+ "\t" + resultSet.getString(4));
 			}
 		} catch (SQLException e) {
