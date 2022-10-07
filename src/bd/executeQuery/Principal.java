@@ -1,4 +1,4 @@
-package bd.executeQuert;
+package bd.executeQuery;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
